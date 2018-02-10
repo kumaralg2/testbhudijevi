@@ -1,0 +1,441 @@
+/* CSS Document */
+/*
+    Description: Buddhijeevi - Responsive Template
+    Version: 1.0
+    Author: Vinoth Pandiyan
+*/
+/* ------------------------------------------ */
+/*             TABLE OF CONTENTS
+/* ------------------------------------------ */
+/*   01 - General & Basic Styles   */
+/*   02 - Header & Navigation      */
+/*   03 - Home Page Elements       */
+/*   04 - Footer Styles            */
+/*   05 - Bootstrap Extended       */
+/*   06 - Course Catalog           */
+/*   07 - Course Detail            */
+/*   08 - Trainer Profile          */
+/*   09 - Institute                */
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/*------------------------------------------*/
+/*	     01 - General & Basic Styles
+/*------------------------------------------*/
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color:#727272;
+    background-color: #f4f4f4;
+}
+a {
+    color:#727272;
+}
+a:hover {
+    color:#727272;
+    text-decoration: none;
+}
+.body-section a:hover {
+    text-decoration: none;
+    color: #727272;
+}
+.primary-color { color:#72bf39; }
+.content-section { margin-bottom:30px; }
+.head-section { padding-bottom:20px; }
+h1, h2, h3, h4, h5, h6 { color: #4a4a4a;}
+.marb30 {margin-bottom:10px;}
+.icon-group-block .fa, .course-search .fa {font-size: 26px;}
+.fa-arrow-right { color: #72bf39;}
+#side-menu a:hover, #side-menu a:focus {
+    text-decoration: none;
+    background-color: transparent;
+}
+#side-menu>li>a{
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+.sidebar .nav-second-level li,
+.sidebar .nav-third-level li {
+  border-bottom: none !important;
+}
+.sidebar .nav-second-level li a {
+  padding-left: 25px;
+}
+.sidebar .nav-third-level li a {
+  padding-left: 40px;
+}
+.course-title, .course-category { 
+    font-size:16px; 
+    padding-bottom: 10px;
+}
+.panel {border-top:0; border-left:0; border-right: 0;}
+blockquote {font-weight: bold; font-size: 14px; text-align: left; }
+.mtop10 { margin-top: 10px; }
+
+/*------------------------------------------*/
+/*	     02 - Header & Navigation
+/*------------------------------------------*/
+
+.head-input {
+    border-bottom: 1px solid #ccc;
+    margin: 0 10px;
+}
+.head-input input { 
+    border: none; 
+    box-shadow: none;
+}
+.head-input .input-group-addon {
+    border:none;
+}
+
+.head-input .form-control:focus {
+    border:none;
+    box-shadow: none;
+}
+.body-section {
+    background-color: #fff;
+}
+/*------------------------------------------*/
+/*	     03 - Home Page Elements
+/*------------------------------------------*/
+.our-aim {font-size: 30px;}
+.ptop9 {padding-top:9px;}
+.category-block {
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px 15px 0px 15px;
+    text-align: center;
+    min-height: 125px;
+}
+.course-search {    
+    background: 
+        /* top, transparent red, faked with gradient */ 
+        linear-gradient(
+          rgba(114, 191, 56, 0.9), 
+          rgba(114, 191, 56, 0.9)
+        ),
+        /* bottom, image */
+        url(../img/background.png);
+    padding: 25px 15px;
+}
+.course-search h1,.course-search p  {
+    color:#fff;
+}
+.no-border-radius {border-radius:0; border:none;}
+.course-search input, .course-search .input-group-addon {border:none; border-radius: 0; font-size:14px;}
+.icon-large {
+    font-size:22px;
+}
+.row .no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row .no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 1px;
+  padding-left: 0px;
+}
+.search-form {padding:50px 0;}
+.red-text { color: #aa0000; }
+i.tab-space:not(:first-child) {padding-left:5px;}
+.section-title {font-size: 22px; font-weight: bold;}
+.section-title .fa.primary-color {color:#72bf39; padding-right: 10px;}
+.icon-group-block { margin: 25px 0;}
+.icon-group-block p {  margin: 15px 0 0 0; }
+
+/* Carousel */
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+    /* Control buttons  */
+    /* Previous button  */
+    /* Next button  */
+    /* Changes the position of the indicators */
+    /* Changes the color of the indicators */
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-control.left {
+    left: -60px;
+}
+#quote-carousel .carousel-control.right {
+    right: -60px;
+}
+#quote-carousel .carousel-indicators {
+    position: relative;
+    min-height: 150px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 75px;
+    height: 75px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+#quote-carousel .carousel-indicators .active {
+    width: 128px;
+    height: 128px;
+    border-radius: 100px;
+    opacity: 1;
+    overflow: hidden;
+}
+
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+blockquote .fa {
+    display: block;
+    padding: 10px 0;
+    color: #ddd;
+    text-align: left;
+}
+blockquote .fa-quote-right {
+    text-align: right;
+}
+.color-white {color: #fff;}
+
+.breadcrumb {
+    background-color: transparent;
+    padding:10px 0;
+    margin:0;
+}
+/*------------------------------------------*/
+/*	     04 - Footer Styles
+/*------------------------------------------*/
+.footer {
+    background-color: #4a4a4a;
+    padding: 20px 0;
+    color: #9b9b9b;
+}
+footer a {
+    color:#72bf39;
+}
+footer a:hover {
+    color:#9b9b9b;
+    text-decoration: none;
+}
+
+/*------------------------------------------*/
+/*	  05 - Bootstrap extended
+/*------------------------------------------*/
+.navbar-toggle .icon-bar {
+    background-color: #4a4a4a !important;
+}
+
+.navbar {
+    box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.16);
+    margin:0;
+    padding:10px 0;
+    background-color: #fff;
+}
+
+/*------------------------------------------*/
+/*	  06 - Course Catalog
+/*------------------------------------------*/
+
+i.green {
+    color: #72bf39;
+}
+i.star {
+   color:#f1b249; 
+}
+
+@media (min-width: 768px) {
+    #side-menu li {
+      position: relative;
+    }
+    #side-menu > li ul {
+      position: absolute;
+      left: 100%;
+      top: 0;
+      min-width: 200px;
+      display: none;
+    }
+    #side-menu li:hover > ul,
+    #side-menu li:hover > ul.collapse {
+      display: block !important;
+      height: auto !important;
+      z-index: 1000;
+      background: #f4f4f4;
+      visibility: visible;
+    }
+}
+
+.fa-angle-right {float:right; color:#555;}
+
+h5.green-border {
+    padding: 10px 3px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+.filter-block {
+    padding-bottom: 10px;
+}
+.navbar-default {
+    background-color: transparent;
+}
+.parent-category-row {
+    padding: 10px 0;
+    text-align: center;
+}
+.parent-category-row img {
+    padding-right: 5px;
+}
+.child1-category-row {
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    padding: 6px 10px;
+}
+.child1-category-row a {
+    color: #501616;
+}
+.child1-category-row a.active {
+    font-weight: bold;
+}
+.child1-category-row ul li {
+    display: inline;
+    padding-right: 30px;
+    padding-left: 10px;
+}
+.child1-category-row ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/*------------------------------------------*/
+/*	  07 - Course Detail
+/*------------------------------------------*/
+.bg-primary-color { background-color: #72bf39;}
+.course-highlight {
+    color:#fff;
+    padding:30px 15px;
+}
+.sizex .fa {
+    font-size: 22px;
+}
+.course-highlight h1, .course-highlight h3, .course-highlight h5, .course-highlight a, .course-highlight a:hover {
+    color: #fff;
+}
+.course-title-big {
+    font-size: 32px;
+}
+.price-big {
+    font-size: 24px;
+    line-height: 20px;
+    padding-top: 5px;
+}
+.enroll-button-default {
+    border: 1px solid #fff;
+    padding:4px 10px;
+    font-size: 26px;
+    text-align: center;
+}
+.enroll-active{
+    background-color: #fff;
+}
+.enroll-button-default a:hover, .enroll-active a:hover {
+    text-decoration:  none;
+}
+.enroll-button-default a, .enroll-button-default a:hover {color: #fff;}
+.enroll-active a,.enroll-active a:hover  {
+    color: #72bf39;    
+}
+.soc-icon-big {font-size: 20px;}
+.soc-icon-big .fa { color: #fff;}
+.course-detail-page li a.info-active {
+    border-top: 2px solid #72bf39;
+}
+.course-detail-page li a {
+    font-size: 16px;
+    padding: 4px 10px;
+}
+.course-detail-page li a:hover {
+    text-decoration: none;
+}
+.container.container-body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.instructor-table>tbody>tr>td {
+    min-width: 120px;
+}
+.rating-container {
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 26px;
+    padding: 10px;
+}
+.course-section-title {
+    padding-bottom: 25px;
+}
+
+/*------------------------------------------*/
+/*	  08 - Trainer Profile
+/*------------------------------------------*/
+.grey-bg {
+    background-color: #f2f2f2;
+}
+.body-spc-aligned {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.white-bg{
+    background-color: #fff;
+}
+.txt-container {
+    padding:20px;
+}
+.table-tr-border tr {
+    border-bottom: 1px solid #cccccc;
+}
+.profile-icon .fa {
+    color: #72bf39;
+    font-size: 16px;
+}
+.profile-icon li {
+    border: 1px solid #72bf39;
+    padding: 3px 6px;
+    margin: 0 5px;
+}
+.full-width {
+    width: 100%;
+}
+.sidebar-title {
+    padding:10px 0;
+}
+.mb10 {margin-bottom:10px;}
+hr {margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #d8d8d8;}
+
+
+/*------------------------------------------*/
+/*	  09 - Institute
+/*------------------------------------------*/
+.facilities-list {
+    margin: 0;
+    padding: 0;
+}
+.facilities-list li {
+    display: inline-block;
+    list-style: none;
+    padding: 6px 15px;
+    border: 1px solid #d9d9d9;
+    margin: 6px 5px;
+    border-radius: 20px;
+}
+.facilities-list li i {
+    padding: 0 6px;
+}

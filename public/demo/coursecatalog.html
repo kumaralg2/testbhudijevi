@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Course Catalog</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/metisMenu.min.css" rel="stylesheet">
+    
+    <!-- Fontawesome CSS -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+              <a class="navbar-brand" href="#"><img src="assets/img/logo.png" /></a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Courses</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Rahul Rao <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">My Profile</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Logout</a></li>
+                </ul>
+              </li>
+            </ul>
+              
+            <form class="navbar-form navbar-left head-search-section">
+                <div class="input-group head-input">
+                    <div class="input-group-addon"><i class="fa fa-map-marker"></i></div>
+                    <input type="text" class="form-control" placeholder="Location" name="location">
+                </div>
+                <div class="input-group head-input">
+                    <div class="input-group-addon"><i class="fa fa-search"></i></div>
+                    <input type="text" class="form-control" placeholder="Search for courses" name="course">
+                </div>
+            </form>
+              
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <!-- Body Section -->
+    <div class="container-fluid mtop10">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <br><br>
+                        <!-- Sidebar Vertical Category Items -->
+                        <div class="navbar-default" role="navigation">
+                            <div class="sidebar-nav">
+                                <ul class="nav in" id="side-menu">
+                                    <li>
+                                        <a href="#">Software Programming <span class="fa fa-angle-right"></span></a>
+                                        <ul class="nav nav-third-level collapse" aria-expanded="false">
+                                            <li>
+                                                <a href="#">Microsoft ASP.net</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Python</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">C&C++</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Java J2EE</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">PHP</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">Java</a></li>
+                                    <li><a href="">Oracle</a></li>
+                                    <li><a href="">Python</a></li>
+                                    <li><a href="">Cloud Computing</a></li>
+                                </ul>
+                            </div>
+                            <!-- /.sidebar-collapse -->
+                        </div>
+                        <br>
+                        <br>
+                        
+                        <!-- Catalog Filter Block --> 
+                        <div class="catalog-filters">
+                            <h4 class="green-border">
+                                <i class="fa fa-filter" aria-hidden="true"></i>&nbsp;
+                                Filters
+                            </h4>
+                            <form>
+                                <div class="filter-block">
+                                    <h5 class="green-border">Type</h5>
+                                    <div class="checkbox"> 
+                                        <label> <input type="checkbox" value=""> Private Course/Tuition </label> 
+                                    </div> 
+                                    <div class="checkbox"> 
+                                        <label> <input type="checkbox" value=""> Government/CSR affiliated Programme </label> 
+                                    </div>
+                                </div>
+                                <div class="filter-block">
+                                    <h5 class="green-border">Mode</h5>
+                                    <div class="checkbox"> 
+                                        <label> <input type="checkbox" value=""> Classroom </label> 
+                                    </div> 
+                                    <div class="checkbox"> 
+                                        <label> <input type="checkbox" value=""> Online </label> 
+                                    </div> 
+                                    <div class="checkbox"> 
+                                        <label> <input type="checkbox" value=""> Personal Trainer </label> 
+                                    </div> 
+                                </div>
+                                <div class="filter-block">
+                                    <h5 class="green-border">Duration</h5>
+                                    <div class="checkbox"> 
+                                        <label> <input type="checkbox" value=""> Short Term Courses</label> 
+                                    </div> 
+                                    <div class="checkbox"> 
+                                        <label> <input type="checkbox" value=""> Workshop Courses </label> 
+                                    </div> 
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="row">
+                            <div class="col-md-12 parent-category-row">
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <a href="">
+                                            <img src="assets/img/it-grey-icon.png" alt=""/> <b> Information Technology</b>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <a href="">
+                                            <img src="assets/img/ps-grey-icon.png" alt=""/> Professional Courses
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <a href="">
+                                            <img src="assets/img/sme-grey-icon.png" alt=""/> SME Courses
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 child1-category-row white-bg">                        
+                                <ul>
+                                    <li><a href="" class="active">Software Programing</a></li>
+                                    <li><a href="">Storage and Backup</a></li>
+                                    <li><a href="">Operating System</a></li>
+                                </ul>
+                            </div>
+                            
+                            <div class="col-md-12 white-bg">
+                                <ol class="breadcrumb">
+                                    <li><a href="#">Information Technology</a></li>
+                                    <li><a href="#">Software Programming</a></li>
+                                    <li class="primary-color">Optic Fibres</li>
+                                  </ol>
+                            </div>
+                            
+                            <div class="col-md-12 body-section">
+                                <h3>Optic Fibers<small class="primary-color"><b> (20 Courses)</b></small></h3>
+                                <div class="panel panel-default">
+                                    <a href="">
+                                        <div class="panel-body">
+                                            <div class="row">
+                                                <div class="col-md-3 col-sm-3 col-xs-6 course-category"><b>Optical Fibre</b></div>
+                                                <div class="col-md-2 col-sm-2 col-xs-3 col-md-push-7 col-sm-push-7 col-xs-push-3 primary-color text-center"><b>Beginner</b></div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p class="course-title">With 5,000 vector icons organized in 97 categories</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="row">
+                                                        <div class="col-md-3 col-sm-4 col-xs-4">
+                                                            <img class="img-responsive" src="assets/img/dummy_img.png"/>
+                                                        </div>
+                                                        <div class="col-md-3 col-sm-8 col-xs-8">
+                                                            <dl>
+                                                                <dt class="primary-color">INR 19,000.00/-</dt>
+                                                                <dd><del>INR 20,000.00/-</del> (10% Off)</dd>
+                                                            </dl>
+                                                            <dl>
+                                                                <dt><b>Institute Name</b></dt>
+                                                                <dd>Koramangala, Bengaluru</dd>
+                                                                <dd>Karnataka, India</dd>
+                                                            </dl>
+                                                        </div>
+                                                        <div class="col-md-6 col-sm-12 col-xs-12 course-details">                                                
+                                                            <div class="row">
+                                                                <div class="col-md-5 col-sm-5 col-xs-5 text-left">
+                                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                                    <i class="fa fa-star-o star" aria-hidden="true"></i>
+                                                                    <span> 54 Ratings</span>
+                                                                </div>
+                                                                <div class="col-md-7 col-sm-7 col-xs-7 text-right">
+                                                                    <p><b>Enrollment Ends : </b> <b class="red-text">30 Dec 2016</b></p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-3 col-sm-3 col-xs-3">
+                                                                    <b>Program</b>
+                                                                </div>
+                                                                <div class="col-md-9 col-sm-9 col-xs-9">
+                                                                    <p><b>PMKYV Eligibility criteria and beneﬁts</b></p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-3 col-sm-3 col-xs-3">
+                                                                    <b>Verifications</b>
+                                                                </div>
+                                                                <div class="col-md-9 col-sm-9 col-xs-9">
+                                                                    <p><i class="fa fa-check-circle tab-space green" aria-hidden="true"></i> Course <i class="fa fa-check-circle tab-space green" aria-hidden="true"></i> Institute <i class="fa fa-check-circle tab-space green" aria-hidden="true"></i> Trainer</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-3 col-sm-3 col-xs-3">
+                                                                    <b>Facilities</b>
+                                                                </div>
+                                                                <div class="col-md-9 col-sm-9 col-xs-9">
+                                                                    <p>Certﬁcate, Practcal Lab, Desktop Computers, more...</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <a href="">
+                                        <div class="panel-body">
+                                            <div class="row">
+                                                <div class="col-md-3 col-sm-3 col-xs-6 course-category"><b>Optical Fibre</b></div>
+                                                <div class="col-md-2 col-sm-2 col-xs-3 col-md-push-7 col-sm-push-7 col-xs-push-3 primary-color text-center"><b>Beginner</b></div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p class="course-title">With 5,000 vector icons organized in 97 categories</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="row">
+                                                        <div class="col-md-3 col-sm-4 col-xs-4">
+                                                            <img class="img-responsive" src="assets/img/dummy_img.png"/>
+                                                        </div>
+                                                        <div class="col-md-3 col-sm-8 col-xs-8">
+                                                            <dl>
+                                                                <dt class="primary-color">INR 19,000.00/-</dt>
+                                                                <dd><del>INR 20,000.00/-</del> (10% Off)</dd>
+                                                            </dl>
+                                                            <dl>
+                                                                <dt><b>Institute Name</b></dt>
+                                                                <dd>Koramangala, Bengaluru</dd>
+                                                                <dd>Karnataka, India</dd>
+                                                            </dl>
+                                                        </div>
+                                                        <div class="col-md-6 col-sm-12 col-xs-12 course-details">                                                
+                                                            <div class="row">
+                                                                <div class="col-md-5 col-sm-5 col-xs-5 text-left">
+                                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                                    <i class="fa fa-star-o star" aria-hidden="true"></i>
+                                                                    <span> 54 Ratings</span>
+                                                                </div>
+                                                                <div class="col-md-7 col-sm-7 col-xs-7 text-right">
+                                                                    <p><b>Enrollment Ends : </b> <b class="red-text">30 Dec 2016</b></p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-3 col-sm-3 col-xs-3">
+                                                                    <b>Program</b>
+                                                                </div>
+                                                                <div class="col-md-9 col-sm-9 col-xs-9">
+                                                                    <p><b>PMKYV Eligibility criteria and beneﬁts</b></p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-3 col-sm-3 col-xs-3">
+                                                                    <b>Verifications</b>
+                                                                </div>
+                                                                <div class="col-md-9 col-sm-9 col-xs-9">
+                                                                    <p><i class="fa fa-check-circle tab-space green" aria-hidden="true"></i> Course <i class="fa fa-check-circle tab-space green" aria-hidden="true"></i> Institute <i class="fa fa-check-circle tab-space green" aria-hidden="true"></i> Trainer</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-3 col-sm-3 col-xs-3">
+                                                                    <b>Facilities</b>
+                                                                </div>
+                                                                <div class="col-md-9 col-sm-9 col-xs-9">
+                                                                    <p>Certﬁcate, Practcal Lab, Desktop Computers, more...</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <a href="">
+                                        <div class="panel-body">
+                                            <div class="row">
+                                                <div class="col-md-3 col-sm-3 col-xs-6 course-category"><b>Optical Fibre</b></div>
+                                                <div class="col-md-2 col-sm-2 col-xs-3 col-md-push-7 col-sm-push-7 col-xs-push-3 primary-color text-center"><b>Beginner</b></div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p class="course-title">With 5,000 vector icons organized in 97 categories</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="row">
+                                                        <div class="col-md-3 col-sm-4 col-xs-4">
+                                                            <img class="img-responsive" src="assets/img/dummy_img.png"/>
+                                                        </div>
+                                                        <div class="col-md-3 col-sm-8 col-xs-8">
+                                                            <dl>
+                                                                <dt class="primary-color">INR 19,000.00/-</dt>
+                                                                <dd><del>INR 20,000.00/-</del> (10% Off)</dd>
+                                                            </dl>
+                                                            <dl>
+                                                                <dt><b>Institute Name</b></dt>
+                                                                <dd>Koramangala, Bengaluru</dd>
+                                                                <dd>Karnataka, India</dd>
+                                                            </dl>
+                                                        </div>
+                                                        <div class="col-md-6 col-sm-12 col-xs-12 course-details">                                                
+                                                            <div class="row">
+                                                                <div class="col-md-5 col-sm-5 col-xs-5 text-left">
+                                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                                    <i class="fa fa-star-o star" aria-hidden="true"></i>
+                                                                    <span> 54 Ratings</span>
+                                                                </div>
+                                                                <div class="col-md-7 col-sm-7 col-xs-7 text-right">
+                                                                    <p><b>Enrollment Ends : </b> <b class="red-text">30 Dec 2016</b></p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-3 col-sm-3 col-xs-3">
+                                                                    <b>Program</b>
+                                                                </div>
+                                                                <div class="col-md-9 col-sm-9 col-xs-9">
+                                                                    <p><b>PMKYV Eligibility criteria and beneﬁts</b></p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-3 col-sm-3 col-xs-3">
+                                                                    <b>Verifications</b>
+                                                                </div>
+                                                                <div class="col-md-9 col-sm-9 col-xs-9">
+                                                                    <p><i class="fa fa-check-circle tab-space green" aria-hidden="true"></i> Course <i class="fa fa-check-circle tab-space green" aria-hidden="true"></i> Institute <i class="fa fa-check-circle tab-space green" aria-hidden="true"></i> Trainer</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-3 col-sm-3 col-xs-3">
+                                                                    <b>Facilities</b>
+                                                                </div>
+                                                                <div class="col-md-9 col-sm-9 col-xs-9">
+                                                                    <p>Certﬁcate, Practcal Lab, Desktop Computers, more...</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <a href="">
+                                        <div class="panel-body">
+                                            <div class="row">
+                                                <div class="col-md-3 col-sm-3 col-xs-6 course-category"><b>Optical Fibre</b></div>
+                                                <div class="col-md-2 col-sm-2 col-xs-3 col-md-push-7 col-sm-push-7 col-xs-push-3 primary-color text-center"><b>Beginner</b></div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p class="course-title">With 5,000 vector icons organized in 97 categories</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="row">
+                                                        <div class="col-md-3 col-sm-4 col-xs-4">
+                                                            <img class="img-responsive" src="assets/img/dummy_img.png"/>
+                                                        </div>
+                                                        <div class="col-md-3 col-sm-8 col-xs-8">
+                                                            <dl>
+                                                                <dt class="primary-color">INR 19,000.00/-</dt>
+                                                                <dd><del>INR 20,000.00/-</del> (10% Off)</dd>
+                                                            </dl>
+                                                            <dl>
+                                                                <dt><b>Institute Name</b></dt>
+                                                                <dd>Koramangala, Bengaluru</dd>
+                                                                <dd>Karnataka, India</dd>
+                                                            </dl>
+                                                        </div>
+                                                        <div class="col-md-6 col-sm-12 col-xs-12 course-details">                                                
+                                                            <div class="row">
+                                                                <div class="col-md-5 col-sm-5 col-xs-5 text-left">
+                                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                                    <i class="fa fa-star-o star" aria-hidden="true"></i>
+                                                                    <span> 54 Ratings</span>
+                                                                </div>
+                                                                <div class="col-md-7 col-sm-7 col-xs-7 text-right">
+                                                                    <p><b>Enrollment Ends : </b> <b class="red-text">30 Dec 2016</b></p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-3 col-sm-3 col-xs-3">
+                                                                    <b>Program</b>
+                                                                </div>
+                                                                <div class="col-md-9 col-sm-9 col-xs-9">
+                                                                    <p><b>PMKYV Eligibility criteria and beneﬁts</b></p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-3 col-sm-3 col-xs-3">
+                                                                    <b>Verifications</b>
+                                                                </div>
+                                                                <div class="col-md-9 col-sm-9 col-xs-9">
+                                                                    <p><i class="fa fa-check-circle tab-space green" aria-hidden="true"></i> Course <i class="fa fa-check-circle tab-space green" aria-hidden="true"></i> Institute <i class="fa fa-check-circle tab-space green" aria-hidden="true"></i> Trainer</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-3 col-sm-3 col-xs-3">
+                                                                    <b>Facilities</b>
+                                                                </div>
+                                                                <div class="col-md-9 col-sm-9 col-xs-9">
+                                                                    <p>Certﬁcate, Practcal Lab, Desktop Computers, more...</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <a href="">
+                                        <div class="panel-body">
+                                            <div class="row">
+                                                <div class="col-md-3 col-sm-3 col-xs-6 course-category"><b>Optical Fibre</b></div>
+                                                <div class="col-md-2 col-sm-2 col-xs-3 col-md-push-7 col-sm-push-7 col-xs-push-3 primary-color text-center"><b>Beginner</b></div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p class="course-title">With 5,000 vector icons organized in 97 categories</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="row">
+                                                        <div class="col-md-3 col-sm-4 col-xs-4">
+                                                            <img class="img-responsive" src="assets/img/dummy_img.png"/>
+                                                        </div>
+                                                        <div class="col-md-3 col-sm-8 col-xs-8">
+                                                            <dl>
+                                                                <dt class="primary-color">INR 19,000.00/-</dt>
+                                                                <dd><del>INR 20,000.00/-</del> (10% Off)</dd>
+                                                            </dl>
+                                                            <dl>
+                                                                <dt><b>Institute Name</b></dt>
+                                                                <dd>Koramangala, Bengaluru</dd>
+                                                                <dd>Karnataka, India</dd>
+                                                            </dl>
+                                                        </div>
+                                                        <div class="col-md-6 col-sm-12 col-xs-12 course-details">                                                
+                                                            <div class="row">
+                                                                <div class="col-md-5 col-sm-5 col-xs-5 text-left">
+                                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                                    <i class="fa fa-star star" aria-hidden="true"></i>
+                                                                    <i class="fa fa-star-o star" aria-hidden="true"></i>
+                                                                    <span> 54 Ratings</span>
+                                                                </div>
+                                                                <div class="col-md-7 col-sm-7 col-xs-7 text-right">
+                                                                    <p><b>Enrollment Ends : </b> <b class="red-text">30 Dec 2016</b></p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-3 col-sm-3 col-xs-3">
+                                                                    <b>Program</b>
+                                                                </div>
+                                                                <div class="col-md-9 col-sm-9 col-xs-9">
+                                                                    <p><b>PMKYV Eligibility criteria and beneﬁts</b></p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-3 col-sm-3 col-xs-3">
+                                                                    <b>Verifications</b>
+                                                                </div>
+                                                                <div class="col-md-9 col-sm-9 col-xs-9">
+                                                                    <p><i class="fa fa-check-circle tab-space green" aria-hidden="true"></i> Course <i class="fa fa-check-circle tab-space green" aria-hidden="true"></i> Institute <i class="fa fa-check-circle tab-space green" aria-hidden="true"></i> Trainer</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-3 col-sm-3 col-xs-3">
+                                                                    <b>Facilities</b>
+                                                                </div>
+                                                                <div class="col-md-9 col-sm-9 col-xs-9">
+                                                                    <p>Certﬁcate, Practcal Lab, Desktop Computers, more...</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+          <div class="row">
+                <div class="col-md-9">                 
+                    <ul class="list-inline">
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Terms Of Use</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">FAQ's</a></li>
+                    </ul>
+                    <p>Copyright © 2016 BuddhiJeevi, Inc., HMT Main Road, Jalahalli, Bangalore 560013</p>
+                </div>
+              <div class="col-md-3 text-center">
+                  <ul class="list-inline">
+                      <li><a href=""><img src="assets/img/fb-icon.png" /></a></li>
+                        <li><a href=""><img src="assets/img/in-icon.png" /></a></li>
+                        <li><a href=""><img src="assets/img/twitter-icon.png" /></a></li>
+                        <li><a href=""><img src="assets/img/gplus-icon.png" /></a></li>
+                    </ul>
+              </div>
+          </div>
+      </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/metisMenu.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+  </body>
+</html>

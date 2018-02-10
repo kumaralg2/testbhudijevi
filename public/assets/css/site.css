@@ -1,0 +1,9 @@
+
+form label.error { color: red }
+.screen.name {
+    color: #fff;
+    font-weight: bold;
+}
+.Active.Category a{
+	color:green;
+}

@@ -1,0 +1,49 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?sensor=false&libraries=places"></script>
+<div class="col-md-5">Thas
+<div class="form-group">
+<input type="hidden" id="ContentPlaceHolderContent_hdnLatitude" name="ctl00$ContentPlaceHolderContent$hdnLatitude">
+<input type="hidden" id="ContentPlaceHolderContent_hdnLongitude" name="ctl00$ContentPlaceHolderContent$hdnLongitude">
+<input type="hidden" id="ContentPlaceHolderContent_hdnLocation" name="ctl00$ContentPlaceHolderContent$hdnLocation">
+<input type="hidden" id="ContentPlaceHolderContent_hdnDistance" name="ctl00$ContentPlaceHolderContent$hdnDistance">
+<script type="text/javascript">
+google.maps.event.addDomListener(window, 'load', function () {
+var options = {
+//types: ['(cities)'],
+componentRestrictions: { country: 'in' }
+};
+var places = new google.maps.places.Autocomplete(document.getElementById('ContentPlaceHolderContent_txtLocation'), options);
+google.maps.event.addListener(places, 'place_changed', function () {
+var place = places.getPlace();
+var address = place.formatted_address;
+var latitude = place.geometry.location.lat();
+var longitude = place.geometry.location.lng();
+var mesg = "Address: " + address;
+mesg += "\nLatitude: " + latitude;
+mesg += "\nLongitude: " + longitude;
+
+document.getElementById('ContentPlaceHolderContent_hdnLatitude').value = latitude;
+document.getElementById('ContentPlaceHolderContent_hdnLongitude').value = longitude;
+document.getElementById('ContentPlaceHolderContent_hdnLocation').value = document.getElementById('ContentPlaceHolderContent_txtLocation').value;
+//alert(mesg);
+
+/*
+$.ajax({
+	type: "POST",
+	contentType: "application/json; charset=utf-8",
+	url: "/WebMethods.aspx/storelatlang",
+	data: "{lat:'" + latitude + "',lang:'" + longitude + "',location:'" + document.getElementById('ContentPlaceHolderContent_txtLocation').value + "'}",
+	dataType: "json",
+	failure: function (responseForget) {
+		alert("Error");
+	}
+});
+*/
+});
+});
+</script>                              
+<i class="glyphicon glyphicon-map-marker"></i>
+	 <input type="text" placeholder="Locality" class="form-control" id="ContentPlaceHolderContent_txtLocation" name="ctl00$ContentPlaceHolderContent$txtLocation" autocomplete="off">
+ 
+</div>
+</div>

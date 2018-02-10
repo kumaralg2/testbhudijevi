@@ -1,0 +1,662 @@
+[22-Mar-2017 21:24:37 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[22-Mar-2017 21:24:37 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-22.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[22-Mar-2017 21:24:42 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[22-Mar-2017 21:24:42 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-22.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[22-Mar-2017 21:26:12 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[22-Mar-2017 21:26:12 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-22.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[22-Mar-2017 21:26:44 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[22-Mar-2017 21:26:44 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-22.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[22-Mar-2017 21:28:20 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[22-Mar-2017 21:28:20 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-22.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[22-Mar-2017 21:30:01 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[22-Mar-2017 21:30:01 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-22.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[22-Mar-2017 21:37:05 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[22-Mar-2017 21:37:05 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-22.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[22-Mar-2017 21:37:15 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[22-Mar-2017 21:37:15 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-22.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[22-Mar-2017 21:52:57 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-22.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Unex...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[22-Mar-2017 21:52:57 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-22.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[22-Mar-2017 21:55:16 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[22-Mar-2017 21:55:16 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-22.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[22-Mar-2017 21:55:24 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[22-Mar-2017 21:55:24 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-22.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[22-Mar-2017 21:55:37 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[22-Mar-2017 21:55:37 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-22.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[22-Mar-2017 21:55:46 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[22-Mar-2017 21:55:46 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-22.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[22-Mar-2017 21:56:43 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-22.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Unex...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[22-Mar-2017 21:56:43 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-22.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[22-Mar-2017 21:57:42 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[22-Mar-2017 21:57:42 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-22.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[22-Mar-2017 22:00:01 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[22-Mar-2017 22:00:01 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-22.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[22-Mar-2017 22:07:28 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[22-Mar-2017 22:07:28 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-22.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[22-Mar-2017 22:10:25 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[22-Mar-2017 22:10:25 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-22.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[22-Mar-2017 22:43:44 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[22-Mar-2017 22:43:44 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-22.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[22-Mar-2017 22:53:02 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[22-Mar-2017 22:53:02 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-22.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[22-Mar-2017 23:17:05 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[22-Mar-2017 23:17:05 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-22.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[22-Mar-2017 23:50:24 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[22-Mar-2017 23:50:24 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-22.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 00:08:48 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 00:08:48 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 00:23:45 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 00:23:45 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 00:28:11 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 00:28:11 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 00:28:19 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 00:28:19 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 00:47:33 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 00:47:33 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 00:50:35 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 00:50:35 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 00:50:38 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 00:50:38 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 00:53:49 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Unex...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 00:53:49 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 01:05:33 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 01:05:33 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 01:05:37 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 01:05:37 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 01:05:48 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 01:05:48 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 01:21:26 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Unex...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 01:21:26 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 01:24:52 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 01:24:52 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 01:30:24 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 01:30:24 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 01:31:19 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 01:31:19 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 01:32:17 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 01:32:17 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 01:48:30 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 01:48:30 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 02:25:25 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 02:25:25 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 02:25:41 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 02:25:41 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 02:26:03 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 02:26:03 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 02:26:17 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 02:26:17 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 02:32:32 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 02:32:32 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 02:36:21 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 02:36:21 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 02:37:05 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 113
+[23-Mar-2017 02:37:05 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 02:41:45 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 02:41:45 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 03:10:24 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 03:10:24 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 03:18:33 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 03:18:33 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 03:43:46 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 03:43:46 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 03:56:10 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 03:56:10 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 04:17:04 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 04:17:04 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 04:44:03 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 04:44:03 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 04:50:25 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 04:50:25 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 05:11:57 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 05:11:57 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/buddhijeevi/buddhijeevi/storage/logs/laravel-2017-03-23.log" could not be opened: failed to open stream: No such file or directory' in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(88): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#2 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#3 /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, 'exception 'Symf...', Array)
+#4 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Hand in /home/buddhijeevi/buddhijeevi/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 84
+[23-Mar-2017 05:15:38 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 05:15:49 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 05:16:03 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 05:16:12 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 06:20:33 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 06:20:58 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 06:27:46 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 06:30:25 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 07:03:44 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 07:43:32 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 08:10:24 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 08:38:30 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 08:43:45 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 08:59:33 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 09:17:04 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 09:50:26 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 10:15:06 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 10:23:45 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 10:57:05 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 11:30:25 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 11:30:53 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 11:47:58 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 11:48:00 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 11:48:01 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 11:48:01 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 12:03:45 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 12:24:52 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 12:25:40 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 12:37:05 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 12:46:40 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 13:10:26 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 13:43:45 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 14:02:27 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 14:17:05 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 113
+[23-Mar-2017 14:33:07 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 113
+[23-Mar-2017 14:50:25 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 15:18:14 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 15:57:05 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 15:59:56 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 113
+[23-Mar-2017 15:59:57 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 113
+[23-Mar-2017 16:00:54 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 16:01:19 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 16:01:20 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 16:01:47 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 16:02:05 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 16:02:08 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 16:02:24 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 16:02:26 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 16:02:36 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 16:34:33 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 17:03:45 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 17:49:48 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 18:59:27 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 19:06:06 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 20:21:22 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 20:47:28 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 20:48:11 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 20:48:19 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 21:37:08 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 22:52:55 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 22:52:58 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[23-Mar-2017 22:56:16 America/Chicago] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 09:59:35 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 113
+[24-Mar-2017 10:04:31 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 10:38:44 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 10:42:41 asia/kolkata] PHP Parse error:  syntax error, unexpected '/', expecting \\ (T_NS_SEPARATOR) or ';' or '{' in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 3
+[24-Mar-2017 10:43:47 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 10:44:23 asia/kolkata] PHP Parse error:  syntax error, unexpected '/', expecting ',' or ';' in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 22
+[24-Mar-2017 11:00:30 asia/kolkata] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to App\Exceptions\Handler::report() must be an instance of Exception, instance of Error given, called in /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php on line 73 and defined in /home/buddhijeevi/buddhijeevi/app/Exceptions/Handler.php:25
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(73): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/buddhijeevi/buddhijeevi/app/Exceptions/Handler.php on line 25
+[24-Mar-2017 11:00:31 asia/kolkata] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to App\Exceptions\Handler::report() must be an instance of Exception, instance of Error given, called in /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php on line 73 and defined in /home/buddhijeevi/buddhijeevi/app/Exceptions/Handler.php:25
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(73): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/buddhijeevi/buddhijeevi/app/Exceptions/Handler.php on line 25
+[24-Mar-2017 11:01:59 asia/kolkata] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to App\Exceptions\Handler::report() must be an instance of Exception, instance of Error given, called in /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php on line 73 and defined in /home/buddhijeevi/buddhijeevi/app/Exceptions/Handler.php:25
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(73): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/buddhijeevi/buddhijeevi/app/Exceptions/Handler.php on line 25
+[24-Mar-2017 11:06:15 asia/kolkata] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to App\Exceptions\Handler::report() must be an instance of Exception, instance of Error given, called in /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php on line 73 and defined in /home/buddhijeevi/buddhijeevi/app/Exceptions/Handler.php:25
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(73): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/buddhijeevi/buddhijeevi/app/Exceptions/Handler.php on line 25
+[24-Mar-2017 11:16:09 asia/kolkata] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to App\Exceptions\Handler::report() must be an instance of Exception, instance of Error given, called in /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php on line 73 and defined in /home/buddhijeevi/buddhijeevi/app/Exceptions/Handler.php:25
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(73): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/buddhijeevi/buddhijeevi/app/Exceptions/Handler.php on line 25
+[24-Mar-2017 11:16:27 asia/kolkata] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to App\Exceptions\Handler::report() must be an instance of Exception, instance of Error given, called in /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php on line 73 and defined in /home/buddhijeevi/buddhijeevi/app/Exceptions/Handler.php:25
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(73): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/buddhijeevi/buddhijeevi/app/Exceptions/Handler.php on line 25
+[24-Mar-2017 11:20:51 asia/kolkata] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to App\Exceptions\Handler::report() must be an instance of Exception, instance of Error given, called in /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php on line 73 and defined in /home/buddhijeevi/buddhijeevi/app/Exceptions/Handler.php:25
+Stack trace:
+#0 /home/buddhijeevi/buddhijeevi/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(73): App\Exceptions\Handler->report(Object(Error))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#2 {main}
+  thrown in /home/buddhijeevi/buddhijeevi/app/Exceptions/Handler.php on line 25
+[24-Mar-2017 11:28:54 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 11:39:36 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 11:51:55 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 11:55:07 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 12:05:07 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 12:05:46 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 12:12:02 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 13:10:17 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 13:28:16 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 13:33:20 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 13:38:09 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 14:05:00 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 14:09:48 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 14:16:24 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 14:17:09 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 14:26:13 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 15:41:53 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 16:02:15 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 113
+[24-Mar-2017 16:25:24 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 16:31:54 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 16:39:21 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 16:43:51 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 16:45:00 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 16:45:03 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 16:45:06 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 16:45:09 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 16:48:19 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 17:05:42 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 18:13:26 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 18:52:57 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 19:29:42 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 19:44:11 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 19:57:57 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 20:46:07 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 20:50:50 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 113
+[24-Mar-2017 22:00:48 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 22:04:36 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 113
+[24-Mar-2017 22:04:39 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 113
+[24-Mar-2017 22:40:42 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 22:47:43 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 113
+[24-Mar-2017 23:14:01 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 23:16:34 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[24-Mar-2017 23:55:14 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 113
+[25-Mar-2017 00:32:08 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 00:32:23 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 01:05:30 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 01:38:49 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 01:48:10 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 02:12:10 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 113
+[25-Mar-2017 02:34:29 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 02:34:32 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 02:34:53 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 02:34:56 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 02:35:47 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 02:35:49 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 02:35:50 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 02:45:29 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 03:04:27 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 03:16:29 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 03:18:11 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 03:20:15 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 03:20:36 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 03:25:42 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 03:40:42 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 04:33:04 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 113
+[25-Mar-2017 04:59:11 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 05:00:55 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 06:12:18 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 06:31:45 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 07:05:04 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 07:28:02 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 07:57:22 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 113
+[25-Mar-2017 08:43:50 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 08:51:54 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 08:57:36 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 08:58:00 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 09:59:37 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 10:29:49 asia/kolkata] PHP Fatal error:  Class 'App\Models\Coursesector' not found in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/CourseController.php on line 1050
+[25-Mar-2017 11:18:28 asia/kolkata] PHP Parse error:  syntax error, unexpected '')->insert(array('' (T_CONSTANT_ENCAPSED_STRING) in /home/buddhijeevi/buddhijeevi/app/Http/Controllers/AccountController.php on line 615
+[02-Jul-2017 14:22:52 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class App\Http\Kernel does not exist' in /home/buddhijeevi/beta/vendor/laravel/framework/src/Illuminate/Container/Container.php:776
+Stack trace:
+#0 /home/buddhijeevi/beta/vendor/laravel/framework/src/Illuminate/Container/Container.php(776): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/buddhijeevi/beta/vendor/laravel/framework/src/Illuminate/Container/Container.php(656): Illuminate\Container\Container->build('App\\Http\\Kernel', Array)
+#2 /home/buddhijeevi/beta/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(613): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#3 /home/buddhijeevi/beta/vendor/laravel/framework/src/Illuminate/Container/Container.php(229): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#4 /home/buddhijeevi/beta/vendor/laravel/framework/src/Illuminate/Container/Container.php(773): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\ in /home/buddhijeevi/beta/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 776
+[09-Jul-2017 00:25:31 asia/kolkata] PHP Parse error:  syntax error, unexpected 'assets' (T_STRING), expecting ',' or ';' in /home/buddhijeevi/beta/storage/framework/views/19ea193419aafc886c213b104767bbe1 on line 49
+[09-Jul-2017 00:25:33 asia/kolkata] PHP Parse error:  syntax error, unexpected 'assets' (T_STRING), expecting ',' or ';' in /home/buddhijeevi/beta/storage/framework/views/19ea193419aafc886c213b104767bbe1 on line 49
